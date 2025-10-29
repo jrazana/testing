@@ -1,0 +1,38 @@
+---
+canvas: "https://jrazana.github.io/testing/img/derivatives/iiif/05naples/canvas/05naples-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "third plant",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T08:51:28.939Z",
+            "modified": "2025-10-29T08:51:33.740Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jrazana.github.io/testing/img/derivatives/iiif/05naples/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://jrazana.github.io/testing/img/derivatives/iiif/05naples/canvas/05naples-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=959.7760620117188,41.22643280029297,545.2832641601562,935.6313552856445"
+        }
+    },
+    "id": "607fb8fd-4b27-4a15-a785-33300e11b429.json",
+    "motivation": "commenting"
+}
