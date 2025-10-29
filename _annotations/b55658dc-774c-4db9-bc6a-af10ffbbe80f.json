@@ -1,0 +1,37 @@
+---
+canvas: "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921847"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "H Orangeries",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T12:39:52.676Z",
+            "modified": "2025-10-29T12:39:56.035Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jrazana.github.io/testing/manifests/v20/5901351/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921847",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1364.3790283203125,3510.009765625 2586.93505859375,2948.19580078125 2790.84619140625,3053.159423828125 1563.252685546875,3663.236328125 1402.0535888671875,3601.236572265625\"></polygon></svg>"
+        }
+    },
+    "id": "b55658dc-774c-4db9-bc6a-af10ffbbe80f.json",
+    "motivation": "commenting"
+}
