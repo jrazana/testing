@@ -1,0 +1,38 @@
+---
+canvas: "https://jrazana.github.io/testing/img/derivatives/iiif/06native/canvas/06native-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "another plant",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T09:05:15.256Z",
+            "modified": "2025-10-29T09:05:18.967Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/canvas/06native-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=611.0184936523438,1064.5203857421875,948.5859985351562,1012.1395263671875"
+        }
+    },
+    "id": "6ee90f47-5580-4941-a5ba-1e6dc79d59df.json",
+    "motivation": "commenting"
+}
