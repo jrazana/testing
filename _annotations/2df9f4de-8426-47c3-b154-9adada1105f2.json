@@ -4,21 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "struchnon alikakabon",
-            "purpose": "commenting",
+            "created": "2025-10-29T09:44:21.623Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T09:44:21.623Z",
-            "modified": "2025-10-29T09:44:30.697Z"
+            "modified": "2025-10-29T12:25:54.873Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "struchnon alikakabon 199v"
         }
     ],
+    "id": "2df9f4de-8426-47c3-b154-9adada1105f2.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1067.5421142578125,247.25045776367188,301.697509765625,79.1051025390625"
+        },
         "source": {
             "partOf": {
                 "id": "https://jrazana.github.io/testing/manifests/iiif/MSS_Chig.F.VII.159/manifest.json",
@@ -26,13 +32,7 @@ order: 1
             },
             "id": "https://digi.vatlib.it/iiif/MSS_Chig.F.VII.159/canvas/p0414",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1067.5421142578125,247.25045776367188,301.697509765625,79.1051025390625"
         }
     },
-    "id": "2df9f4de-8426-47c3-b154-9adada1105f2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
