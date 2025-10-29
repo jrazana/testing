@@ -4,21 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "struchnon kepaion",
-            "purpose": "assessing",
+            "created": "2025-10-29T12:13:31.814Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T12:13:31.814Z",
-            "modified": "2025-10-29T12:13:43.184Z"
+            "modified": "2025-10-29T12:15:51.853Z",
+            "purpose": "assessing",
+            "type": "TextualBody",
+            "value": "struchnon kepaion 101v"
         }
     ],
+    "id": "d27c263c-a0fb-4f27-91a3-6ded0c81494c.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=729.9290771484375,1108.3497314453125,926.3868408203125,193.7852783203125"
+        },
         "source": {
             "partOf": {
                 "id": "https://jrazana.github.io/testing/manifests/12148/btv1b525002505/manifest.json",
@@ -26,13 +32,7 @@ order: 1
             },
             "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525002505/canvas/f210",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=729.9290771484375,1108.3497314453125,926.3868408203125,193.7852783203125"
         }
     },
-    "id": "d27c263c-a0fb-4f27-91a3-6ded0c81494c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
