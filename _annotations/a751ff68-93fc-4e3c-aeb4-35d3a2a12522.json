@@ -1,0 +1,37 @@
+---
+canvas: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525002505/canvas/f10"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Hole? ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T09:26:03.565Z",
+            "modified": "2025-10-29T09:26:21.048Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jrazana.github.io/testing/manifests/12148/btv1b525002505/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525002505/canvas/f10",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1327.0316162109375,1524.7412109375 1634.4173583984375,1539.9952392578125 1659.6177978515625,2036.205078125 1312.9449462890625,2223.488037109375 1308.960205078125,2104.814453125 1185.4329833984375,2033.138671875 1233.25,1865.7794189453125\"></polygon></svg>"
+        }
+    },
+    "id": "a751ff68-93fc-4e3c-aeb4-35d3a2a12522.json",
+    "motivation": "commenting"
+}
