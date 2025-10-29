@@ -1,0 +1,38 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Urb.gr.149/canvas/p0031"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ibis",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T09:57:30.366Z",
+            "modified": "2025-10-29T09:57:31.192Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jrazana.github.io/testing/manifests/iiif/MSS_Urb.gr.149/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Urb.gr.149/canvas/p0031",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=408.3084411621094,149.4849090576172,591.8843688964844,639.0019073486328"
+        }
+    },
+    "id": "3f4a494a-0c79-45f8-a6fd-0240ff7866e1.json",
+    "motivation": "commenting"
+}
