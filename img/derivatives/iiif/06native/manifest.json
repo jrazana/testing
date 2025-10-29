@@ -1,0 +1,72 @@
+---
+added: 2025-10-29 09&#58;01&#58;09.446025
+thumbnail: https://jrazana.github.io/testing/img/derivatives/iiif/06native/06native/full/104,/0/default.jpg
+title: 06_native
+user: jrazana
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "06_native"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/canvas/06native-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "06_native"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/06native/full/104,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2155,
+      "width": 1659,
+      "items": [
+        {
+          "id": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/06native/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2155,
+                "width": 1659,
+                "service": [
+                  {
+                    "id": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/06native",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://jrazana.github.io/testing/img/derivatives/iiif/06native/canvas/06native-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
