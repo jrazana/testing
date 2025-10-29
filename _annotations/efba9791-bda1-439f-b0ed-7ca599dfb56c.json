@@ -1,0 +1,38 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Chig.F.VII.159/canvas/p0446"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "(\u03bb\u1f7b\u03ba\u03b9\u03bf\u03bd-lukion) 215v",
+            "purpose": "describing",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T12:28:39.898Z",
+            "modified": "2025-10-29T12:28:52.792Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jrazana.github.io/testing/manifests/iiif/MSS_Chig.F.VII.159/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Chig.F.VII.159/canvas/p0446",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1167.9102783203125,1272.322509765625,478.913330078125,982.27978515625"
+        }
+    },
+    "id": "efba9791-bda1-439f-b0ed-7ca599dfb56c.json",
+    "motivation": "commenting"
+}
