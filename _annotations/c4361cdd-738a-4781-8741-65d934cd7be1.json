@@ -1,0 +1,38 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Chig.F.VII.159/canvas/p0414"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Solanum",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T09:47:24.149Z",
+            "modified": "2025-10-29T09:47:25.715Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jrazana.github.io/testing/manifests/iiif/MSS_Chig.F.VII.159/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Chig.F.VII.159/canvas/p0414",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1425.147216796875,233.91017150878906,191.736328125,105.90046691894531"
+        }
+    },
+    "id": "c4361cdd-738a-4781-8741-65d934cd7be1.json",
+    "motivation": "commenting"
+}
